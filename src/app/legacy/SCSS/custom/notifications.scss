@@ -1,0 +1,64 @@
+#notifications {
+
+  #notifications-bell {
+    background-color: transparent;
+  }
+
+  #notification-dropdown {
+    width: 300px;
+  }
+
+  .notification-text {
+    line-height: normal !important;
+    width: 270px;
+  }
+
+  .notification-container {
+    display: flex;
+    align-items: center;
+  }
+
+  i.pink {
+    color: $pink;
+  }
+
+  i.orange {
+    color: $orange;
+  }
+
+  i.light-gray-blue {
+    color: $light-gray-blue;
+  }
+
+  i.green {
+    color: $green;
+  }
+
+  i.yellow {
+    color: $yellow;
+  }
+
+  .empty-notification-icon {
+    width: 100%;
+    color: $green;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  .empty-notification-head {
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .empty-notification-body {
+    text-align: center;
+    margin-bottom: 8px;
+  }
+
+  .notification-icon {
+    font-size: 19px;
+    margin-left: -6px;
+  }
+}

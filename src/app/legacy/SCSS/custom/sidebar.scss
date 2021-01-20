@@ -1,0 +1,9 @@
+.sidebar-content .wrapper, .wrapper.sidebar-content {
+  padding-right: 230px !important;
+}
+
+@media (max-width: 1366px) {
+  .sidebar-panel {
+    width: 100%;
+  }
+}

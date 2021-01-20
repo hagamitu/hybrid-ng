@@ -1,0 +1,138 @@
+a:focus, a:active:focus {
+  outline: none;
+}
+
+//Uib-modal gives lower INLINE z-index, We prevent overriding this.
+.modal {
+  z-index: 2200 !important;
+}
+
+.modal-header {
+  .btn-close {
+    float: right;
+    border: 0;
+    padding: 0;
+    line-height: 10px;
+    background-color: white;
+  }
+}
+
+.modal-backdrop {
+  z-index: 2040 !important;
+}
+
+.modal-dialog {
+  z-index: 2200;
+}
+
+.popover.on-top-a-modal {
+  z-index: 3000 !important;
+}
+
+.popover.on-top-a-modal.right {
+  margin-left: 15px !important;
+}
+
+.popover.on-top-a-modal.cvv-help {
+  max-width: 300px;
+}
+
+.modal-body {
+  padding: 20px 30px 0px 30px;
+}
+
+
+.inmodal .modal-body {
+  background: $white;
+}
+
+.inmodal .modal-header {
+  padding: 15px 30px 15px 30px;
+}
+
+.modal-footer {
+  .btn-white {
+    min-width: 90px;
+  }
+
+  .btn-blue {
+    font-size: 13px;
+    font-weight: 600;
+    color: $light-blue3;
+    background-color: white;
+    box-shadow: none;
+  }
+
+  .btn-success {
+    min-width: 110px;
+  }
+
+  .btn-red {
+    background-color: $red;
+    color: $white
+  }
+}
+
+@media (max-width: 450px) {
+  #page-wrapper {
+    padding: 0 10px;
+  }
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  border-bottom: white;
+}
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+  background-color: white;
+  color: $gray4;
+}
+
+.form-control[disabled], fieldset[disabled] .form-control{
+  cursor: default;
+}
+
+body {
+  font-family: $font-stack;
+  background-color: $nav-bg;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background: none;
+  border-color: #DDDDDD #DDDDDD rgba(0, 0, 0, 0);
+  border-bottom: white;
+  border-image: none;
+  border-style: solid;
+  border-width: 1px;
+  color: #555555;
+  cursor: default;
+}
+
+.nav.nav-tabs li {
+  background: none;
+  border: none;
+}
+
+.ibox-tools {
+  display: inline-block;
+  float: right;
+}
+
+.ibox-title {
+  border-width: 4px 0px 0;
+  padding: 14px 15px 7px;
+}
+
+.open > .dropdown-menu {
+  left: auto;
+  right: 0;
+}
+
+.blue-bg {
+  background-color: $blue;
+  color: #ffffff;
+}

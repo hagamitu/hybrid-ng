@@ -1,0 +1,260 @@
+#yo-sign-in {
+  background-color: $dark-grey-blue4;
+  background-size: cover;
+  height: 100%;
+  .sign-in-view {
+    position: relative;
+    .loginscreen.middle-box {
+      width: 300px;
+      padding-top: 10%;
+
+      .btn-success.disabled {
+        background-color: $gray7;
+        border-color: $gray7;
+        color: $gray5;
+      }
+    }
+
+    .login-title {
+      color: white;
+    }
+
+    .form-group {
+      position: relative;
+      i {
+        position: absolute;
+        left: 14px;
+        top: 15px;
+        color: $gray5;
+      }
+      .form-control {
+        padding: 11px 30px;
+        border-radius: 5px;
+        height: auto;
+      }
+    }
+    .ladda-button {
+      font-size: 14px;
+      padding: 6px 12px;
+    }
+
+    .btn-success.disabled,
+    .btn-success.disabled:hover,
+    .btn-success.disabled:focus,
+    .btn-success.disabled:active,
+    .btn-success.disabled.active,
+    .btn-success[disabled],
+    .btn-success[disabled]:hover,
+    .btn-success[disabled]:focus,
+    .btn-success[disabled]:active,
+    .btn-success.active[disabled],
+    fieldset[disabled] .btn-success,
+    fieldset[disabled] .btn-success:hover,
+    fieldset[disabled] .btn-success:focus,
+    fieldset[disabled] .btn-success:active,
+    fieldset[disabled] .btn-success.active {
+      background-color: $blue;
+      border-color: $blue;
+      color: white;
+    }
+  }
+
+}
+
+.chat-message.left {
+  float: left;
+  margin-right: 10px;
+}
+
+.chat-message.right {
+  float: right;
+  margin-left: 10px;
+}
+
+.chat-message.left {
+  float: right;
+}
+
+.chat-message.right {
+  float: left;
+}
+
+.chat-message.left {
+  text-align: left;
+  margin-left: 55px;
+}
+
+.chat-message.right {
+  text-align: right;
+  margin-right: 55px;
+}
+
+/* E-commerce */
+.product-box {
+  padding: 0;
+
+  border: 1px solid $border-color;
+}
+
+.product-box:hover,
+.product-box.active {
+  border: 1px solid transparent;
+  -webkit-box-shadow: 0px 3px 7px 0px rgba(168,168,168,1);
+  -moz-box-shadow: 0px 3px 7px 0px rgba(168,168,168,1);
+  box-shadow: 0px 3px 7px 0px rgba(168,168,168,1);
+}
+
+.product-imitation {
+  text-align: center;
+  padding: 90px 0;
+  background-color: lighten($gray, 2%);
+  color: darken($gray, 20%);
+  font-weight: 600;
+}
+
+.product-imitation.xl {
+  padding: 120px 0;
+}
+
+.product-desc {
+  padding: 20px;
+  position: relative;
+}
+
+.ecommerce .tag-list {
+  padding: 0;
+}
+
+.ecommerce .fa-star {
+  color: $light-gray;
+}
+
+.ecommerce .fa-star.active {
+  color: $yellow;
+}
+
+.ecommerce .note-editor {
+  border: 1px solid $border-color;
+}
+
+.product-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: $text-color;
+  display: block;
+  margin: 2px 0 5px 0;
+}
+
+.product-name:hover,
+.product-name:focus {
+  color: $navy;
+}
+
+.product-price {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: $navy;
+  padding: 6px 12px;
+
+  position: absolute;
+  top: -32px;
+  right: 0;
+}
+
+/* Social feed */
+.social-feed-separated .social-feed-box {
+  margin-left: 62px;
+}
+
+.social-feed-separated .social-avatar {
+  float: left;
+  padding: 0;
+}
+
+.social-feed-separated .social-avatar img {
+  width: 52px;
+  height: 52px;
+  border: 1px solid #e7eaec;
+}
+
+.social-feed-separated .social-feed-box .social-avatar {
+  padding: 15px 15px 0 15px;
+  float: none;
+}
+
+.social-feed-box {
+  /*padding: 15px;*/
+  border: 1px solid #e7eaec;
+  background: #fff;
+  margin-bottom: 15px;
+}
+
+.article .social-feed-box {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+.article .social-feed-box:last-child{
+  margin-bottom: 0;
+  border-bottom: 1px solid $border-color;
+}
+
+.article .social-feed-box p {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.social-action {
+  margin: 15px;
+}
+
+.social-avatar {
+  padding: 15px 15px 0 15px;
+}
+
+.social-comment .social-comment {
+  margin-left: 45px;
+}
+
+.social-avatar img {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+
+.social-avatar .media-body a {
+  font-size: 14px;
+  display: block;
+}
+
+.social-body {
+  padding: 15px;
+}
+
+.social-body img {
+  margin-bottom: 10px;
+}
+
+.social-footer {
+  border-top: 1px solid #e7eaec;
+  padding: 10px 15px;
+  background: #f9f9f9;
+}
+
+.social-footer .social-comment img {
+  width: 32px;
+  margin-right: 10px;
+}
+
+.social-comment:first-child {
+  margin-top: 0;
+}
+
+.social-comment {
+  margin-top: 15px;
+}
+
+.social-comment textarea {
+  font-size: 12px;
+}

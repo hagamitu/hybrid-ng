@@ -1,0 +1,311 @@
+// Basic DS Colors Overridden for Yotpo use
+$font-stack: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$navy: #1cc286;           // Primary color
+$dark-gray: #b6b6b6;      // Default color
+$blue: #2f84ed;           // Success color
+$lazur: #6b6d77;          // Info color
+$label-badget-color: #5e5e5e;
+$yellow: #fec600;         // Warrning color
+$red: #f04860;            // Danger color
+
+//Navigation Overridden for Yotpo use
+$nav-bg: #2f4050;
+
+// YOTPO COLOR CODES (defined by Adam)
+
+$yellow: #f9c614;
+$dark-yellow: #cb9e00;
+$yellow2: #fefaeb;
+$orange: #fea700;
+$orange2: #fe8900;
+$orange3: #ff8929;
+$orange4: #fea702;
+$light-orange-cta-hover: #EBB700;
+$dark-blue: #266abe;
+$purple: #8059f1;
+$light-purple: #8271ff;
+$light-green: #93eccb;
+$green: #1cc286;
+$green1: #33c481;
+$dark-green: #196b6b;
+$light-red: #ffc0c9;
+$pink: #fbbfc8;
+$light-orange: #fdc42e;
+$spin-color: #e7eaec;
+$shopify-green: #95c048;
+
+$pinterest: #C92228;
+$facebook: #435C96;
+$twitter: #55A7F9;
+
+$white: #ffffff;
+$white2: #F5F6FA;
+$white3: #f2f8ff;
+$white-opacity: rgba(255, 255, 255, .6);
+$grey-opacity: rgba(227, 227, 227, 0.6);
+$blue-opacity-1: rgba(137, 175, 223, 0.4);
+$blue-opacity-2: rgba(183, 193, 255, 0.82);
+$blue-opacity-3: rgba(137, 175, 223, 0.69);
+
+$gray: #f8f8f8;
+$gray1: #e7eaec;
+$gray2: #e3e3e3;
+$gray3: #c6c6c6;
+$gray4: #b6b6b6;
+$gray5: #888888;
+$gray6: #676a6c;
+$gray7: #dfdfdf;
+$gray8: #d8d8d8;
+$gray9: #d4d5dd;
+$gray10: #e2e3e9;
+$gray11: #ebecf1;
+$gray12: #DDDDDD;
+$gray13: #F2F2F5;
+$gray14: #CECECE;
+$gray15: #eff0f3;
+$gray16: #e5e5e5;
+$gray17: #fafafa;
+$gray18: #fafafa;
+$gray19: #636363;
+$gray20: #d5dadf;
+$gray21: #eff0f4;
+$gray22: #F2F2F2;
+$gray23: #D7D7D7;
+$gray24: #E7E8ED;
+$gray25: #DBDEE6;
+$gray26: #f9fafe;
+$gray27: #EAEAEA;
+$gray28: #9DA4B8;
+$gray29: #f5f7fa;
+$gray30: #9ea6b9;
+$gray31: #e6e6e6;
+$gray32: #272727;
+$gray33: #dadada;
+$gray34: #e6eaed;
+$gray35: #a0a6bb;
+$gray36: #e5e6e7;
+$gray37: #dddddd;
+$gray38: #8c91a5;
+$gray39: #cfd2db;
+$gray40: #d8dbe3;
+$gray42: #4a4b50;
+$gray43: #777777;
+$gray44: #fcfcfc;
+$gray45: #f5f6fc;
+$gray46: #c7c7c7;
+$gray47: #bdc8d2;
+$gray48: #8b8b8b;
+$gray49: #c2c2c2;
+$gray50: #f0f0f0;
+$gray51: #d9d9d9;
+$gray52: #909090;
+$gray53: #afafaf;
+$gray54: #ACB5D4;
+$gray55: #ebf7ff;
+$gray56: #e5e5e5;
+$gray57: #576DA5;
+$gray58: #e5e6e9;
+$gray59: #dfe0e4;
+$gray60: #d0d1d5;
+$gray61: #f6f7f8;
+$gray62: #eeeeee;
+$gray63: #595C69;
+$gray64: #fafaff;
+$gray65: #6B6D78;
+$gray66: #9da5b8;
+$gray67: #9fa3b8;
+$gray68: #e2e4ec;
+$grey69: #f5f7fe;
+$grey70: #6b6f71;
+$gray71: #9b9b9b;
+$gray72: #9A9FB3;
+$gray73: #e9eef4;
+$gray74: #727577;
+$gray75: #6a6c77;
+$gray76: #7e8183;
+$gray77: #d4daee;
+$gray78: #c4c4c4;
+$gray79: #666a6b;
+$gray80: #e6e9f3;
+$gray81: #d7e8f2;
+$gray82: #f0f6fa;
+$gray83: #a1a3a4;
+$gray84: #9698a2;
+$gray85: #cbcbcb;
+$gray86: rgba(226, 228, 236, 0.65);
+$gray87: #8a8c8e;
+$gray88: #979797;
+$gray89: #676a6c;
+$light-gray3: #e9e9e9;
+$light-gray4: #fafafb;
+$light-gray5: #666a6c;
+$light-gray6: #f3f5fb;
+$gray-light-blue2: #f6f9ff;
+
+$social-prof-icon: #FDC52E;
+$social-prof-hover: #363943;
+
+$gray-light-blue: #8892b5;
+$white-light-blue: #f1f3fb;
+$light-blue-cta-hover: #0f6ad8;
+
+$input-border: #ccd5dd;
+$light-gray-blue: #9ea6b9;
+$light-gray-blue1: #f4f6f9;
+$light-gray-blue2: #f8fcff;
+$grey-blue: #6b6d77;
+$grey-blue2: #56575f;
+$dark-grey-blue: #2c2f3d;
+$dark-grey-blue2: #1c1f2a;
+$dark-grey-blue3: #323844;
+$dark-grey-blue4: #1E1E2A;
+$dark-grey-blue: #051146;
+$light-grey-blue: #445361;
+$light-grey-blue2: #f9fbfe;
+$dark-blue1: #125688;
+$dark-blue2: #1887C6;
+$dark-blue3: #0458c1;
+$dark-blue4: #4f8cf9;
+$light-blue1: #519ade;
+$light-blue2: #2c6eed;
+$light-blue3: #1576ec;
+$light-blue4: #1575eb;
+$light-blue5: #ebf7fe;
+$light-blue6: #3184ed;
+$light-blue7: #c1ecff;
+$light-blue8: #9aa8f8;
+
+$darker-blue: #3C5F98;
+$light-blue: #3CACED;
+$navy-blue: #2f84ed;
+$light2-blue: #71b1ff;
+$light3-blue: #257eec;
+$light-blue-well: #c8e0fe;
+$light-blue-well2: #c6e0ff;
+$light-blue-well3: #a1ccff;;
+$light-black: #424959;
+$light-black1: #22252d;
+$light-black2: #313239;
+$black: #000000;
+
+$spin-color: #e3e3e3;
+$blue1: #007FE8;
+$blue2: #2e84ec;
+$blue3: #e7f4f9;
+$blue4: #beebff;
+$blue5: #003090;
+$blue6: #1471e6;
+$blue7: #3681f3;
+$blue-opacity: rgba(49, 132, 237, 0.7);
+$light-green: #a6de2e;
+$cyan: #66d9ef;
+$green-gray: #8d8972;
+$dark-red: #bb0101;
+$red2: #f4315c;
+$purple1: #ff4aef;
+$purple2: #f1005c;
+$purple-blue: #ff4aef;
+$purple-blue2: #3d6df6;
+$purple-blue3: #060386;
+
+@mixin multi-line-elipsis($line-number ,$line-height) {
+  //Multi line cross browser ellipsis
+  overflow: hidden;
+  position: relative;
+  line-height: #{$line-height}em;
+  max-height: #{$line-number * $line-height}em;
+  margin-right: -1em;
+  padding-right: 1em;
+  &:before {
+    content: '...';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  &:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 1em;
+    height: 1em;
+    margin-top: 0.2em;
+    background: white;
+  }
+}
+
+@mixin triangle($direction, $size, $color) {
+  width: 0;
+  height: 0;
+  @if ($direction == up) {
+    border-left: #{$size}px solid transparent;
+    border-right: #{$size}px solid transparent;
+    border-bottom: #{$size}px solid #{$color};
+  } @else if($direction == down) {
+    border-left: #{$size}px solid transparent;
+    border-right: #{$size}px solid transparent;
+    border-top: #{$size}px solid #{$color};
+  } @else if($direction == right) {
+    border-top: #{$size}px solid transparent;
+    border-bottom: #{$size}px solid transparent;
+    border-left: #{$size}px solid #{$color};
+  } @else {
+    border-top: #{$size}px solid transparent;
+    border-bottom: #{$size}px solid transparent;
+    border-right:#{$size}px solid #{$color};
+  }
+}
+
+@mixin rounded-border-table($radius ,$border-width, $border-style, $border-color) {
+  border-collapse:separate;
+  border:#{$border-style} #{$border-color} #{$border-width}px;
+  border-radius:#{$radius}px;
+  tbody:first-child tr:first-child td:first-child {
+    border-radius: #{$radius}px 0 0 0;
+  }
+  tbody:first-child tr:first-child td:last-child {
+    border-radius: 0 #{$radius}px 0 0;
+  }
+  tbody:last-child tr:last-child td:first-child {
+    border-radius: 0 0 0 #{$radius}px;
+  }
+  tbody:last-child tr:last-child td:last-child {
+    border-radius: 0 0 #{$radius}px 0;
+  }
+}
+
+//pictures dropdown width
+$pictures-dropdown-width: 170px;
+
+@mixin vertical-align-modal {
+  &.modal {
+    text-align: center;
+    padding: 0!important;
+  }
+
+  &.modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px;
+  }
+
+  .modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+  }
+}
+
+@mixin tooltip-label() {
+  background-color: $gray1;
+  border-radius: 5px;
+  border: solid 1px $gray12;
+  color: $gray6;
+  font-weight: 400;
+  font-size: 11px;
+}
+
+$desktop-medium-max-width: 1920px;
+$desktop-small-max-width: 1280px;
+$mobile-max-width: 765px;

@@ -1,0 +1,17 @@
+@media (max-width: 350px){
+  .ibox-tools {
+    float: none;
+    text-align: right;
+    display: block;
+  }
+
+  .nav.navbar-top-links li.dropdown {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 768px) {
+  #page-wrapper {
+    margin: 0
+  }
+}

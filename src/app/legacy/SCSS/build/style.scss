@@ -1,0 +1,63 @@
+//// Bootstrap
+//@import "bootstrap-sprockets";
+//@import "bootstrap";
+
+// INSPINIA Theme Elements
+@import "~yotpo-inspinia/SCSS/typography";
+@import "~yotpo-inspinia/SCSS/navigation";
+@import "~yotpo-inspinia/SCSS/top_navigation";
+@import "~yotpo-inspinia/SCSS/buttons";
+@import "~yotpo-inspinia/SCSS/badges_labels";
+@import "~yotpo-inspinia/SCSS/elements";
+@import "~yotpo-inspinia/SCSS/sidebar";
+@import "~yotpo-inspinia/SCSS/base";
+@import "~yotpo-inspinia/SCSS/pages";
+@import "~yotpo-inspinia/SCSS/chat";
+@import "~yotpo-inspinia/SCSS/spinners";
+@import "~yotpo-inspinia/SCSS/metismenu";
+@import "~yotpo-inspinia/SCSS/landing";
+
+// RTL Support
+@import "~yotpo-inspinia/SCSS/rtl";
+
+// For demo only - config box style
+@import "~yotpo-inspinia/SCSS/theme-config";
+
+// INSPINIA Skins
+@import "~yotpo-inspinia/SCSS/skins";
+
+// Media query style
+@import "~yotpo-inspinia/SCSS/media";
+
+// Custom style
+// YOTPO custom style to override base style
+@import "../custom/appcues_menu";
+@import "../custom/base";
+@import "../custom/badges_labels";
+@import "../custom/layuot";
+@import "../custom/elements";
+@import "../custom/buttons";
+@import "../custom/navigation";
+@import "../custom/helpers";
+@import "../custom/flags";
+@import "../custom/search";
+@import "../custom/notifications";
+@import "../custom/pages";
+@import "../custom/media";
+@import "../custom/modals";
+@import "../custom/loading";
+@import "../custom/metis_menu";
+@import "../custom/sidebar";
+@import "../custom/typography";
+
+// Yotpo's components styles
+@import "../../components/components";
+
+// Yotpo's directives styles
+@import "../../directives/directives";
+
+@import "../../../common/controllers/multi_store/after_store_switched_modal/after_store_switched_modal";
+@import "../../../common/controllers/blacklist_topics_modal/blacklist_topics_modal";
+@import "~@angular/material/prebuilt-themes/indigo-pink";
+@import "~@ng-select/ng-select/themes/default.theme";
+@import "~@yotpo-app/components/ng-app/styles/yotpo-tooltip.scss";

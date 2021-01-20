@@ -1,0 +1,104 @@
+.appcues-widget-dropdown {
+  margin-top: -5px;
+  width: 230px;
+  overflow-y: auto;
+  border: medium none;
+  border-radius: 3px;
+  box-shadow: 0 0 3px rgba(86, 96, 117, 0.7);
+  float: left;
+  font-size: 12px;
+  list-style: none outside none;
+
+  &:before, &:after{
+    display: none;
+  }
+
+  .appcues-widget-content {
+    overflow-y: auto;
+  }
+
+  .appcues-widget-list {
+    padding: 10px 10px 10px 10px;
+    margin-top: 5px;
+
+    .appcues-nothing-new {
+      font-size: 0;
+      &:after {
+        content: "Well done! All tutorials completed";
+        font-size: 12px;
+      }
+    }
+
+    li {
+      a {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 25px;
+        color: $gray3;
+        padding: 3px 5px;
+        margin: 4px;
+
+        &:hover {
+          color: $gray32;
+          text-decoration: none;
+          background-color: $gray13;
+        }
+
+        &:before {
+          content: "\25B6\00a0\00a0";
+          color: $navy;
+        }
+
+        time {
+          display: none;
+        }
+      }
+    }
+
+    &:first-child li a{
+      color: $gray43;
+    }
+  }
+}
+
+.appcues-widget-icon {
+  font-size: inherit;
+  line-height: inherit;
+
+  &:after {
+    line-height: 12px;
+    font-size: 10px;
+    padding: 2px 5px;
+    background-color: $red;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+    height: fit-content;
+    bottom: 12px;
+    right: 10px;
+    transition: none;
+  }
+}
+
+.nav-bar-v2 {
+  .appcues-widget-icon {
+    font-size: 24px;
+
+    &:after {
+      line-height: 12px;
+      font-size: 10px;
+      padding: 2px 5px;
+      background-color: $red;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: baseline;
+      border-radius: .25em;
+      height: inherit;
+      font-weight: 600;
+      transition: none;
+      bottom: 23px;
+      right: 14px;
+    }
+  }
+}

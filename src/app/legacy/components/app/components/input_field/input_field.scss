@@ -1,0 +1,25 @@
+@import 'src/app/legacy/SCSS/custom/variables';
+
+.input-field-holder {
+  text-align: left;
+
+  label {
+    height: 17px;
+    font-family: 'open sans';
+    font-size: 12px;
+    line-height: 1.42;
+    color: $gray6;
+    margin-bottom: 6px;
+  }
+
+  .form-control {
+    width: 100%;
+    height: 35px;
+    border-radius: 2px;
+    background-color: $white;
+  }
+
+  input.ng-invalid {
+    border-color: $gray68;
+  }
+}

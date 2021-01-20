@@ -1,0 +1,62 @@
+@for $i from 0 through 9 {
+  $value: $i;
+
+  .mT#{$value} { margin-top    :#{$value}px !important; }
+  .mB#{$value} { margin-bottom :#{$value}px !important; }
+  .mL#{$value} { margin-left   :#{$value}px !important; }
+  .mR#{$value} { margin-right  :#{$value}px !important; }
+  .pT#{$value} { padding-top   :#{$value}px !important; }
+  .pB#{$value} { padding-bottom:#{$value}px !important; }
+  .pL#{$value} { padding-left  :#{$value}px !important; }
+  .pR#{$value} { padding-right :#{$value}px !important; }
+}
+
+@for $i from 1 through 50 {
+  $value: $i * 5;
+
+  .mT#{$value} { margin-top    :#{$value}px !important; }
+  .mB#{$value} { margin-bottom :#{$value}px !important; }
+  .mL#{$value} { margin-left   :#{$value}px !important; }
+  .mR#{$value} { margin-right  :#{$value}px !important; }
+  .pT#{$value} { padding-top   :#{$value}px !important; }
+  .pB#{$value} { padding-bottom:#{$value}px !important; }
+  .pL#{$value} { padding-left  :#{$value}px !important; }
+  .pR#{$value} { padding-right :#{$value}px !important; }
+}
+
+
+@for $i from 1 through 9 {
+  $value: $i/10;
+  .op#{$i} { opacity    :#{$value} !important; }
+}
+
+
+.va-middle {
+  vertical-align: middle;
+}
+.no-border-top {
+  border-top: 0 !important;
+}
+.color-red {
+  color: $red;
+}
+.yo-bold {
+  font-weight: bold;
+}
+
+.dB {
+  display:block;
+}
+
+.dIB {
+  display:inline-block;
+}
+
+.cursor-pointer
+{
+  cursor:pointer;
+}
+
+.width100 {
+  width: 100%;
+}

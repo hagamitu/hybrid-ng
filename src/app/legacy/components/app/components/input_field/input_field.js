@@ -2,7 +2,7 @@ import './input_field.scss';
 //import template from './input_field.html';
 
 var InputField =  {
-      templateUrl: './input_field.html',
+      templateUrl: './src/app/legacy/components/app/components/input_field/input_field.html',
 //   template: `<div class="input-field-holder" ng-style="{ 'width': $ctrl.inputWidth }">
 //   <label ng-bind="$ctrl.title"></label>
 //   <input

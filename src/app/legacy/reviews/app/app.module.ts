@@ -1,5 +1,7 @@
 import 'angular';
 import uiRouter from '@uirouter/angularjs';
+import testPage from './test-page/test.controller';
+import testPageRoutes from './test-page/test-page.route';
 
 declare const angular: any;
 
@@ -8,8 +10,15 @@ export const module = angular.module('AngularJSApp', [
   'AngularJSServices',
   'AngularJSComponents']);
 
+angular.module('AngularJSApp')
+  .controller('test.controller', testPage)
+
 module.config(($locationProvider, $stateProvider) => {
   $locationProvider.html5Mode(true);
+
+  testPageRoutes.forEach((route) => {
+    $stateProvider.state(route.name, route.definition);
+  })
 
   $stateProvider.state('angularjs_a', {
     url: '/angularjs_a',

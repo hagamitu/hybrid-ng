@@ -5,20 +5,19 @@ import testPageRoutes from './test-page/test-page.route';
 
 declare const angular: any;
 
-export const module = angular.module('AngularJSApp', [
+export const yotpoAppModule = angular.module('yotpoApp', [
   uiRouter,
-  'AngularJSServices',
-  'AngularJSComponents']);
+  'yotpoApp.services',
+  'yotpoApp.components']);
 
-angular.module('AngularJSApp')
-  .controller('test.controller', testPage)
+yotpoAppModule.controller('test.controller', testPage);
 
-module.config(($locationProvider, $stateProvider) => {
+yotpoAppModule.config(($locationProvider, $stateProvider) => {
   $locationProvider.html5Mode(true);
 
   testPageRoutes.forEach((route) => {
     $stateProvider.state(route.name, route.definition);
-  })
+  });
 
   $stateProvider.state('angularjs_a', {
     url: '/angularjs_a',
@@ -56,7 +55,7 @@ module.config(($locationProvider, $stateProvider) => {
   });
 });
 
-module.run(['yCountries', '$rootScope', (yCountries, $rootScope) => {
+yotpoAppModule.run(['yCountries', '$rootScope', (yCountries, $rootScope) => {
   console.log('Running AngularJS application', yCountries);
 
   $rootScope.$on('$stateChangeStart', (e, toState, toParams) => {

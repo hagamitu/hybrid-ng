@@ -1,8 +1,9 @@
+import {servicesModule} from './services/app/services.module';
+import {componentsModule} from './components/app/components.module';
+import {yotpoAppModule} from './reviews/app/app.module';
+
 import {Component, NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
-import * as AngularJSServices from './services/app/services.module';
-import * as AngularJSComponents from './components/app/components.module';
-import * as Reviews from './reviews/app/app.module';
 import {UpgradeModule} from '@angular/upgrade/static';
 import {RouterModule} from '@angular/router';
 import {setUpLocationSync} from '@angular/router/upgrade';
@@ -36,11 +37,11 @@ export class LegacyModule {
   // The constructor is called only once, so we bootstrap the application
   // only once, when we first navigate to the legacy part of the app.
   constructor(upgrade: UpgradeModule) {
-    console.log('bootstrap angularjs', [AngularJSServices.module, Reviews.module]);
+    console.log('bootstrap angularjs');
     upgrade.bootstrap(document.body, [
-      AngularJSServices.module.name,
-      AngularJSComponents.module.name,
-      Reviews.module.name
+      servicesModule.name,
+      componentsModule.name,
+      yotpoAppModule.name
     ]);
     setUpLocationSync(upgrade);
   }

@@ -2,13 +2,16 @@ import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {InfoBoxComponent} from './components/info-box/info-box.component';
 import {downgradeComponent} from '@angular/upgrade/static';
+import {componentsModule} from '../app/components.module';
+import {SharedModule} from '../../../shared/shared.module';
 
 
 @NgModule({
   declarations: [InfoBoxComponent],
   exports: [InfoBoxComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    SharedModule
   ]
 })
 export class NgComponentsModule {
@@ -17,7 +20,5 @@ export class NgComponentsModule {
   }
 }
 
-declare const angular: any;
-console.log('before info-box direcive');
-angular.module('AngularJSComponents')
+componentsModule
   .directive('infoBox', downgradeComponent({component: InfoBoxComponent}));

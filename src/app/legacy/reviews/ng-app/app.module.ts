@@ -4,6 +4,7 @@ import {ModerationComponent} from './moderation/moderation.component';
 import {ModTestComponent} from './mod-test/mod-test.component';
 import {TranslateModule, TranslateService} from '@ngx-translate/core';
 import {downgradeComponent} from '@angular/upgrade/static';
+import {yotpoAppModule} from '../app/app.module';
 
 
 @NgModule({
@@ -22,8 +23,5 @@ export class AppModule {
   }
 }
 
-declare const angular: any;
-console.log('before moderation direcive');
-angular.module('AngularJSApp')
-  .directive('moderation', downgradeComponent({component: ModerationComponent}))
+yotpoAppModule.directive('moderation', downgradeComponent({component: ModerationComponent}))
   .directive('modTest', downgradeComponent({component: ModTestComponent}));

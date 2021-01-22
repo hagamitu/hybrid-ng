@@ -2,19 +2,7 @@ import './input_field.scss';
 import template from './input_field.html';
 
 var InputField =  {
-      templateUrl: template,
-//   template: `<div class="input-field-holder" ng-style="{ 'width': $ctrl.inputWidth }">
-//   <label ng-bind="$ctrl.title"></label>
-//   <input
-//     automationid={{$ctrl.automationId}}
-//     class="form-control"
-//     type="{{$ctrl.inputType}}"
-//     ng-model="$ctrl.inputText"
-//     ng-minlength="$ctrl.minLength"
-//     placeholder={{$ctrl.placeholder}}
-//     ng-required="{{$ctrl.required}}"
-//     name="{{$ctrl.name}}"/>
-// </div>`,
+      template: template,
       bindings: {
         title: '@',
         automationId: '@',
